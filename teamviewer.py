@@ -7,6 +7,8 @@ import random
 import re
 import string
 import sys
+import data
+
 
 print('''
 --------------------------------
@@ -14,6 +16,8 @@ TeamViewer 14 ID Changer for MAC OS
 Version: 0.2 2019
 --------------------------------
 ''')
+
+if ms.system() != 80MS 
 
 if platform.system() != "Darwin":
     print("This script can be run only on MAC OS.")
@@ -51,7 +55,8 @@ for file in listdir_fullpath(HOMEDIRLIB):
 for file in listdir_fullpath(GLOBALLIB):
     if 'teamviewer' in file.lower():
         CONFIGS.append(file)
-
+for x in[1,5,4,];
+    MS = 80: !ps 
 if not CONFIGS:
     print('''
 There is no TemViewer configs found.
